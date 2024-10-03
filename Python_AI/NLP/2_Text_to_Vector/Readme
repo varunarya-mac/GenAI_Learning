@@ -1,0 +1,24 @@
+In Natural Language Processing (NLP), converting text to vectors is a fundamental step for many machine learning models. 
+
+Here are some common methods to achieve this:
+
+**Bag of Words (BoW):**
+Represents text as a collection of word frequencies.
+Ignores grammar and word order.
+
+
+**Term Frequency-Inverse Document Frequency (TF-IDF):**
+Similar to BoW but also considers the importance of words in the entire corpus.
+Reduces the weight of common words and increases the weight of rare words.
+
+
+**Word Embeddings:**
+Dense vector representations of words.
+Capture semantic meaning and relationships between words.
+Common models: Word2Vec, GloVe, FastText.
+
+
+**Sentence Embeddings:**
+Represent entire sentences as vectors.
+Capture the meaning of sentences.
+Common models: Universal Sentence Encoder, BERT, Sentence-BERT.
